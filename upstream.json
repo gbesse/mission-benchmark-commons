@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/gbesse/frontier-lab",
+  "commit": "0dde4a13f57c395063f5b783c64b59d6a845f6ee",
+  "extraction": "benchmark",
+  "sourceSha256": {
+    "packages/space-mission-lab/src/commons.js": "c98afd24138297252d4729a95526ea1bc7890da0fa0df6758611819b9ba01de9",
+    "packages/space-mission-lab/src/commons-engine.js": "c07209eee2318451f24ef192ffec0d94efca0ee3ae1f8bb024e2107b70328049",
+    "studio/space-commons.js": "37a41f59567e713cc38dabf57d0b09ea4d0326205a14c7ecad8fd1f67fe8f2cd",
+    "studio/style.css": "61ba7db56140f6327b1aa3bcd230224890fe098dc8fb0cb0fc93cd32f4cf327e",
+    "studio/space.css": "d23c03dce756f2d618ba8925149bf092e158dd6cfda3ffa6e3adedf73119bfaa",
+    "studio/space-commons.css": "66cf868a54dde01e3e075e190166e5fa9b090cb2cb3d9b0015702f1a1acf0d8b",
+    "studio/space-commons-page.js": "915117165431ec586ff2c637ce4eb5afa1c372b829c547e5b2564d6c5500b537",
+    "packages/space-mission-lab/engines/requirements.lock.txt": "47467e42e889fe8f8de8ac27f17d4aaeae0d7759315e1ffb83a91a52391a2d48",
+    "packages/space-mission-lab/engines/OrekitAdapter.java": "d0b2432c832a1768fa86f912f4071f15c74a36ed6c49fb7795690a88443751d8",
+    "packages/space-mission-lab/fixtures/commons/benchmark-4e16c922c4dd9e05.json": "ef4a76f0b884a86eaeeb243abbabd7e2d19e8c0dfe499ec8bb690d0be32896d7",
+    "packages/space-mission-lab/fixtures/commons/benchmark-557d0e34e5c12f90.json": "44bbf40a39cd6514da419a8bfef50469b0c3d259a3ee5b34e7d08cfe2844e5cd",
+    "packages/space-mission-lab/fixtures/commons/benchmark-6222af66d48138c2.json": "6b1c668116554ef8b5f5b3aaeafb8d2e75e331f1e2b75be3e8bfda5a0351379f",
+    "packages/space-mission-lab/fixtures/commons/benchmark-78288efac6ff1647.json": "d2e1fa2475edc757b53810d90afa10628efde12e786c315ba386146393701b69",
+    "packages/space-mission-lab/fixtures/commons/benchmark-c2b7b0db9f9d6f7b.json": "7613b15ff1b47df5e2dcc692664436092eaf71310de35f9787efb3e753dd37d1",
+    "packages/space-mission-lab/fixtures/commons/benchmark-db12e003ae723559.json": "fbf95cd84b3aea97f2779cd1e4cbe91534631a0147ad91384d08a67bb31df2ae",
+    "packages/space-mission-lab/fixtures/commons/benchmark-ea870ba2a4dbe1ab.json": "919253125c9b8f7fb5a5bb1b80ea17d40b6d9ee7f35c6dfe8fc5f45660f45d4b",
+    "packages/space-mission-lab/fixtures/commons/benchmark-ed128694f3075e1f.json": "4d0ad3af5273a4563febbeaf71df2f5c321e711222fab48f22d6036becf94ddd",
+    "scripts/space-public-preview.mjs": "523c1f62fa6ac5b589c420551095c180c6faabfefdef95a258b6c0d45dc91ac7",
+    "LICENSE": "21f5a0a33c9be1b92476f41d82de75c482a3c9f514d408249429957a2571a200",
+    "AGENTS.md": "97ec7470463b413d04bd20dd38179bdd7f5ee946cb4fe1ea4bbc5fc239867eff",
+    ".prettierrc.json": "f583ff6d8ba542b76af46c4c024a0941b77aee51133bb0f69ec6eb1fa613de7e"
+  }
+}

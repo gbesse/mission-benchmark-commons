@@ -1,0 +1,61 @@
+{
+  "name": "@gbesse/mission-benchmark-commons",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "mission-benchmark-commons": "bin/cli.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "public",
+    "engines",
+    "scripts",
+    "fixtures",
+    "docs",
+    "README.md",
+    "README.en.md",
+    "README.es.md",
+    "LICENSE",
+    "upstream.json"
+  ],
+  "scripts": {
+    "start": "node bin/serve.js",
+    "demo": "node bin/cli.js demo",
+    "test": "node --test test/*.test.js",
+    "test:browser": "node scripts/build.mjs && node test/browser.mjs",
+    "test:engines": "node scripts/engines.mjs",
+    "setup:engines": "node scripts/setup.mjs",
+    "fixtures:refresh": "node scripts/fixtures.mjs",
+    "build": "node scripts/build.mjs",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbesse/mission-benchmark-commons.git"
+  },
+  "homepage": "https://github.com/gbesse/mission-benchmark-commons#readme",
+  "description": "FR : Comparer la précision de deux moteurs orbitaux. EN: Compare the accuracy of two orbital engines. ES: Comparar la precisión de dos motores orbitales.",
+  "keywords": [
+    "space",
+    "spaceflight",
+    "orbital-mechanics",
+    "mission-design",
+    "basilisk",
+    "orekit",
+    "spiceypy",
+    "benchmarking",
+    "scientific-computing",
+    "open-source"
+  ],
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "prettier": "3.9.9"
+  }
+}
