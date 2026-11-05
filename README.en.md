@@ -60,3 +60,7 @@ npm run format:check
 `npm run build` exports `output/site` for static hosting at a domain root. This edition replays published cases, without exposing engines or local APIs.
 
 [Mission Benchmark Commons](https://github.com/gbesse/mission-benchmark-commons) · [Contact Market](https://github.com/gbesse/contact-market) · [Citizen Mission](https://github.com/gbesse/citizen-mission)
+
+## 2026-11-05
+
+`residualWindows(report, windowSec)` recomputes maxima, RMS and worst timestamps in half-open windows from recorded positions. Separates Basilisk–Orekit agreement from Orekit–reference residuals: engines can agree and both be wrong. Requires common frame and metres; executes no engine.
