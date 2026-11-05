@@ -15,3 +15,5 @@ export const replay = (config = {}) =>
     fileURLToPath(new URL('../fixtures/commons/', import.meta.url)),
   );
 export const run = (config = {}, options = {}) => runCommons(project.kind, config, options);
+
+export { residualWindows } from './residuals.js';
