@@ -63,3 +63,28 @@ export function residualWindows(report, windowSec = 60) {
     frameAndUnits: 'caller-must-supply-common-frame-and-metres',
   };
 }
+
+export function residualBudget(
+  report,
+  { windowSec = 60, engineToleranceM, referenceToleranceM } = {},
+) {
+  if (
+    !Number.isFinite(engineToleranceM) ||
+    engineToleranceM < 0 ||
+    !Number.isFinite(referenceToleranceM) ||
+    referenceToleranceM < 0
+  )
+    throw new TypeError('Tolérances invalides / Invalid tolerances / Tolerancias inválidas');
+  const result = residualWindows(report, windowSec);
+  return {
+    windows: result.windows.map((w) => ({
+      ...w,
+      engineAgreementWithinTolerance: w.engineMaxM <= engineToleranceM,
+      referenceWithinTolerance: w.referenceMaxM <= referenceToleranceM,
+    })),
+    engineToleranceM,
+    referenceToleranceM,
+    engineExecuted: false,
+    referenceTruthIndependentlyValidated: false,
+  };
+}
