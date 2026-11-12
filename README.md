@@ -64,3 +64,7 @@ npm run format:check
 ## 2026-11-05
 
 `residualWindows(report, windowSec)` recalcule maxima, RMS et instants des pires écarts par fenêtres semi-ouvertes depuis les positions enregistrées. Sépare accord Basilisk–Orekit et résidu Orekit–référence : deux moteurs peuvent être d’accord et faux. Exige mêmes repère et mètres ; ne relance aucun moteur.
+
+## 2026-11-12
+
+FR : Séparer les budgets d’accord moteur et d’écart à la référence sur les calculs enregistrés.

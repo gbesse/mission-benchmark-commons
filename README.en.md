@@ -64,3 +64,7 @@ npm run format:check
 ## 2026-11-05
 
 `residualWindows(report, windowSec)` recomputes maxima, RMS and worst timestamps in half-open windows from recorded positions. Separates Basilisk–Orekit agreement from Orekit–reference residuals: engines can agree and both be wrong. Requires common frame and metres; executes no engine.
+
+## 2026-11-12
+
+EN: Separate engine-agreement budgets and reference-error budgets on recorded computations.

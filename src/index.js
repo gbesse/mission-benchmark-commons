@@ -17,3 +17,5 @@ export const replay = (config = {}) =>
 export const run = (config = {}, options = {}) => runCommons(project.kind, config, options);
 
 export { residualWindows } from './residuals.js';
+
+export { residualBudget } from './residuals.js';
